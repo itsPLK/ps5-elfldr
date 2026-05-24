@@ -29,7 +29,7 @@ RUN ln -s /usr/bin/clang-18 /usr/bin/clang && \
 WORKDIR /opt
 
 # Clone the SDK
-RUN git clone https://github.com/Gezine/sdk.git ps5-payload-sdk-source
+RUN git clone https://github.com/ps5-payload-dev/sdk.git ps5-payload-sdk-source
 
 # Build and Install the SDK to /opt/ps5-payload-sdk
 WORKDIR /opt/ps5-payload-sdk-source
