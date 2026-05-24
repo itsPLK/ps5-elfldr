@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Automated Build Script via Docker
 
-IMAGE_NAME="ps5-payload-sdk-elfldr"
+IMAGE_NAME="ps5-payload-sdk"
 
 function check_sdk() {
     if [[ "$(docker images -q $IMAGE_NAME 2> /dev/null)" == "" ]]; then
